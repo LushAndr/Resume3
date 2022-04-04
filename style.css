@@ -35,8 +35,6 @@ width: 940.6px;
     font-family: 'Gilroy-Bold';
     padding-right: 17.5%;
     color: #828282;
-    text-decoration: none;
-    color: #828282;
 }
 
 .Up-info a {
@@ -221,10 +219,14 @@ text-align: center;
 width: 180.5px;
 height: 42px;
 border-radius: 10% / 50%;
-color: #FFFFFF;
 background-color: #070707;
 font-size: 18px;
 border: none;
+}
+
+.contacts button a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .iconsss {
