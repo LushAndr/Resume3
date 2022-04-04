@@ -1,0 +1,249 @@
+.body{
+    font-family: 'Gilroy-Medium';
+    margin-left: 0px;
+    justify-items: center;
+    background-color: #FFFFFF;
+    width: 940.6px;
+}
+
+.background{
+    margin-left: 251px;
+    margin-right: 251px;
+}
+    
+.line {
+Stroke: Solid;
+color: #828282;
+width: 940.6px;
+
+}
+
+.Up-info {
+    display: flex;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    width: 940.6px;
+
+}
+
+.Up-info p {
+    white-space: pre;
+    font-family: 'Gilroy-Bold';
+    padding-right: 17.5%;
+    color: #828282;
+}
+
+.Up-info a {
+    text-decoration: none;
+    color: #828282;
+}
+.Up-info p :last-child {
+    padding-right: 0px;
+}
+
+.photo {
+    display: flex;
+    margin-right: 100px;
+    background: #FFFFFF;
+    
+}
+
+.photo li {
+white-space: pre;
+
+}
+.li1 {
+margin-top: 70px;
+padding-bottom: 7px;
+
+}
+
+.photo h1 {
+margin-right: 217px;
+font-family: 'Gilroy-Bold';
+font-size: 47.3392px;
+line-height: 59px;
+
+/* Black */
+
+color: #070707;
+
+}
+
+.my_photo {
+    width: 943px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 025);
+    height: 600px;
+
+}
+
+.vertical {
+margin: auto; 
+margin-left: 28%;   
+writing-mode: vertical-rl;
+transform: rotate(-180deg);
+padding-right: 141px;
+}
+
+.about{
+    background: #F6F6F6;
+    height: 506px;
+    width: 1445px;
+    margin-top: 104.06px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+}
+
+.about p{
+padding-bottom: 30px;    
+text-align: center;
+}
+
+.about p :last-child{
+    padding-bottom: 10px;
+}
+
+.about h2{
+    Font: Gilroy-Bold;
+    font-size: 34px;
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 17.69px;
+    }
+
+.skills{
+    height: 506px;
+    width: 1445px;
+    text-align: center;
+    margin-top: 112.93px;
+
+}
+.skills h2{
+    font-size: 34px;
+
+}
+
+.skills p{
+    padding-top: 69.1px;
+    padding-bottom: 82.47px;
+}
+
+.skills ul{
+    display: flex;
+    margin-left: 365px;
+
+
+}
+.skills li{
+    padding-right: 207px;
+}
+
+.icons {
+    width: 89.07px;
+    height: 88.41px;
+    padding-right: 110px;
+    margin-left: 59px;
+}
+
+.stars {
+    width: 166.46px;
+    padding-right: 100px;
+    margin-left: 0px;
+}
+
+.star{
+    padding-right: 45px;
+    padding-left: 0px;
+    margin-left: 0%;
+}
+
+
+.portfolio{
+    background: #F6F6F6;
+    width: 1445px;
+    text-align: center;
+}
+
+.portfolio h2{
+    padding-top: 112.93px;
+    padding-bottom: 47px;
+    font-size: 34px;
+
+}
+
+.portfolio img{
+    width: 936.24px;
+    height: 510px;
+}
+.portfolio p{
+    font-size: 18px;
+    color: black;
+    font-family: Gilroy-Medium;
+    padding-bottom: 99.09px;
+    padding-top: 44.88px;
+}
+
+.portfolio a{
+    font-size: 18px;
+    color: black;
+    font-family: Gilroy-Medium;
+    padding-bottom: 99.09px;
+    padding-top: 44.88px;
+}
+.resume1 {
+    Width: 936.24px;
+    Height: 510px;
+    padding-bottom: 45.9px;
+}
+
+.contacts{
+    text-align: center;
+    Width: 1445px;
+    Height: 622px;
+    padding-top: 114.24px;
+}
+.contacts h2{
+    font-size: 34px;
+}
+
+.contacts p{
+    padding-bottom: 29.6px;    
+
+}
+.contacts button{
+width: 180.5px;
+height: 42px;
+border-radius: 10% / 50%;
+background-color: #070707;
+font-size: 18px;
+border: none;
+}
+
+.contacts button a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.iconsss {
+    margin-top: 85.78px;
+    width: 40.17px;
+    height: 40.06px;
+    padding-right: 60px;
+    padding-bottom: 45.98px;
+
+}
+.cont{
+    padding-left: 38%;
+    display: flex;
+}
+
+.end {
+  color:  #828282;
+  margin-bottom: 123.19px;
+}
