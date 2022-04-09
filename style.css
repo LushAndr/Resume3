@@ -9,7 +9,7 @@
 
     
 
-.Up-info {
+.Home {
     display: flex;
     font-family: 'Gilroy-Bold';
     color: #828282;
@@ -20,7 +20,7 @@
     
 
 }
-.Up-info nav{
+.Home nav{
     margin-top: 15px;
     width: 940.6px;
     position: fixed ;
@@ -31,7 +31,7 @@
 
 
 
-.Up-info p {
+.Home p {
     
     white-space: pre;
     font-family: 'Gilroy-Bold';
@@ -40,11 +40,11 @@
     
 }
 
-.Up-info a {
+.Home a {
     text-decoration: none;
     color: #828282;
 }
-.Up-info p :last-child {
+.Home p :last-child {
     padding-right: 0px;
 }
 
@@ -59,11 +59,8 @@
     
     
 }
-.photo nav{
-    width: 940.6px;
-    height: 1000px;
-    position: fixed ;
-    Stroke: Solid;
+.line{
+    margin-left: 251px;
     color: #828282;
     width: 940.6px;
 }
@@ -107,26 +104,25 @@ transform: rotate(-180deg);
 padding-right: 69px;
 }
 
-.about{
+.aboutMe{
     background: #F6F6F6;
     height: 506px;
     width: 1445px;
     margin-top: 104.06px;
-    margin-left: 0px;
     margin-right: 0px;
     padding-bottom: 10px;
 }
 
-.about p{
+.aboutMe p{
 padding-bottom: 30px;    
 text-align: center;
 }
 
-.about p :last-child{
+.aboutMe p :last-child{
     padding-bottom: 10px;
 }
 
-.about h2{
+.aboutMe h2{
     Font: Gilroy-Bold;
     font-size: 34px;
     text-align: center;
