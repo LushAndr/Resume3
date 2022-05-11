@@ -269,9 +269,6 @@ transition: color 1.5s;
     content: '';
     position: absolute;
     top: 0;
-    border-radius: 20% / 70%;
-
-
 
     transform: skewX(3deg);
     z-index: -30;
