@@ -250,6 +250,7 @@ text-decoration: none;
 text-transform: uppercase;
 letter-spacing: 6px;
 color:white;
+outline: 2px solid rgb(20, 9, 9);
 
 padding: 25px 35px;
 position: relative;
@@ -268,6 +269,9 @@ transition: color 1.5s;
     content: '';
     position: absolute;
     top: 0;
+    border-radius: 20% / 70%;
+
+
 
     transform: skewX(3deg);
     z-index: -30;
