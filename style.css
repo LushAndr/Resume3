@@ -1,5 +1,6 @@
+
 .body{
-    font-family: 'Gilroy-Medium';
+    font-family: 'Gilroy-Bold';
     margin-left: 0px;
     justify-items: center;
     background-color: #FFFFFF;
@@ -91,9 +92,19 @@ color: #070707;
 
 .my_photo {
     width: 943px;
-    box-shadow: 4px 4px 15px rgba(0, 0, 0, 025);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
     height: 600px;
     margin-left: 251px;
+
+    border-radius: 1px;    
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    transition: .750s;
+}
+
+.my_photo:hover{
+    transform: scale(1.1);
 }
 
 .vertical {
@@ -226,30 +237,52 @@ text-align: center;
 }
 
 .contacts p{
-    padding-bottom: 29.6px;    
+    padding-bottom: 59.6px;  
 
 }
-.contacts button{
-width: 180.5px;
-height: 42px;
-border-radius: 10% / 50%;
-background-color: #070707;
-font-size: 18px;
-border: none;
+
+.button{
+width: 0px;
+height: 20px;
+background-color: rgb(10, 10, 10);
+border-radius: 20% / 70%;
+text-decoration: solid black;
+text-transform: uppercase;
+letter-spacing: 6px;
+color:white;
+outline: 2px solid rgb(20, 9, 9);
+
+padding: 25px 35px;
+position: relative;
+overflow: hidden;
+transition: color 1.5s;
+
+}
+.button:hover{
+    color: black;
+    background-color: white;
+}
+  
+
+.button::before{
+    background-color: white;
+    content: '';
+    position: absolute;
+    top: 0;
+   
+
+    transform: skewX(3deg);
+    z-index: -30;
+    transition: 1s;
 }
 
-.contacts button a{
-    text-decoration: none;
-    color: #FFFFFF;
-
-}
 
 .iconsss {
     margin-top: 85.78px;
     width: 40.17px;
     height: 40.06px;
     padding-right: 60px;
-    padding-bottom: 45.98px;
+    padding-bottom: 45.98px;    
 
 }
 .cont{
