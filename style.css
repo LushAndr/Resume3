@@ -142,10 +142,10 @@ text-align: center;
     }
 
 .skills{
-    height: 506px;
+    height: 740px;
     width: 1445px;
     text-align: center;
-    margin-top: 112.93px;
+    margin-top: 60.93px;
 
 }
 .skills h2{
@@ -154,26 +154,46 @@ text-align: center;
 }
 
 .skills p{
-    padding-top: 69.1px;
-    padding-bottom: 82.47px;
+    padding-top: 10.1px;
+    padding-bottom: 60.47px;
 }
 
 .skills ul{
     display: flex;
-    margin-left: 365px;
+    margin-left: 10px;
 
 
 }
 .skills li{
-    padding-right: 207px;
+    padding-right: 208px;
 }
 
 .icons {
-    width: 89.07px;
-    height: 88.41px;
-    padding-right: 110px;
-    margin-left: 59px;
+    width: 70.07px;
+    height: 70.41px;
+    padding-right: 190px;
+    margin-left: 5px;
 }
+
+.tech li{
+    padding-right: 131px;
+    margin-left: 110px;
+
+}
+
+.icons2 {
+    width: 77.07px;
+    height: 70.41px;
+    padding-right: 80px;
+    margin-left: 130px;
+}
+
+.techskills {
+    margin-top: 30px;
+    display: flex;
+    margin-left: 10px;
+}
+
 
 .stars {
     width: 166.46px;
@@ -181,12 +201,18 @@ text-align: center;
     margin-left: 0px;
 }
 
+.stars2 {
+    width: 166.46px;
+    padding-right: 40px;
+    margin-left: 84px;
+}
+
 .star{
     padding-right: 45px;
     padding-left: 0px;
     margin-left: 0%;
+    margin-bottom: 30px;
 }
-
 
 .portfolio{
     background: #F6F6F6;
@@ -250,7 +276,7 @@ text-decoration: none;
 text-transform: uppercase;
 letter-spacing: 6px;
 color:white;
-outline: 2px solid rgb(20, 9, 9);
+outline: 2px solid black;
 
 padding: 25px 35px;
 position: relative;
@@ -269,6 +295,7 @@ transition: color 1.5s;
     content: '';
     position: absolute;
     top: 0;
+
 
     transform: skewX(3deg);
     z-index: -30;
