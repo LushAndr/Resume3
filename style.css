@@ -4,12 +4,8 @@
     margin-left: 0px;
     justify-items: center;
     background-color: #FFFFFF;
-    width: 940.6px;
-    
+    width: 940.6px;   
 }
-
-    
-
 .Home {
     display: flex;
     font-family: 'Gilroy-Bold';
@@ -18,29 +14,19 @@
     height: 100px;
     font-size: 18px;
     margin-left: 251px;
-    
-
 }
 .Home nav{
     margin-top: 15px;
     width: 940.6px;
     position: fixed ;
-    display: flex;
-
-    
+    display: flex;  
 }
-
-
-
-.Home p {
-    
+.Home p {   
     white-space: pre;
     font-family: 'Gilroy-Bold';
     padding-right: 17.5%;
-    color: #828282;
-    
+    color: #828282; 
 }
-
 .Home a {
     text-decoration: none;
     color: #828282;
@@ -48,73 +34,55 @@
 .Home p :last-child {
     padding-right: 0px;
 }
-
-
-
-
 .photo {
     display: flex;
     margin-left: 251px;
     margin-right: 100px;
-    background: #FFFFFF;
-    
-    
+    background: #FFFFFF;  
 }
 .line{
     margin-left: 251px;
     color: #828282;
     width: 940.6px;
 }
-
 .photo li {
-white-space: pre;
-
-
+    white-space: pre;
 }
 .li1 {
-margin-top: 70px;
-padding-bottom: 7px;
-
+    margin-top: 70px;
+    padding-bottom: 7px;
 }
-
 .photo h1 {
     margin-top: 50px;
-margin-right: 217px;
-font-family: 'Gilroy-Bold';
-font-size: 47.3392px;
-line-height: 59px;
-
+    margin-right: 217px;
+    font-family: 'Gilroy-Bold';
+    font-size: 47.3392px;
+    line-height: 59px;
 /* Black */
-
-color: #070707;
-
+    color: #070707;
 }
-
 .my_photo {
     width: 943px;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.25);
     height: 600px;
     margin-left: 251px;
-
     border-radius: 1px;    
     position: relative;
     overflow: hidden;
     object-fit: cover;
     transition: .750s;
 }
-
 .my_photo:hover{
     transform: scale(1.1);
 }
-
 .vertical {
-margin: auto; 
-margin-left: 28%;   
-writing-mode: vertical-rl;
-transform: rotate(-180deg);
-padding-right: 69px;
+    display: flex;
+    margin: auto; 
+    margin-left: 28%;   
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    padding-right: 69px;
 }
-
 .aboutMe{
     background: #F6F6F6;
     height: 506px;
@@ -123,16 +91,13 @@ padding-right: 69px;
     margin-right: 0px;
     padding-bottom: 10px;
 }
-
 .aboutMe p{
-padding-bottom: 30px;    
-text-align: center;
+    padding-bottom: 30px;    
+    text-align: center;
 }
-
 .aboutMe p :last-child{
     padding-bottom: 10px;
 }
-
 .aboutMe h2{
     Font: Gilroy-Bold;
     font-size: 34px;
@@ -140,19 +105,15 @@ text-align: center;
     padding-top: 120px;
     margin-bottom: 17.69px;
     }
-
 .skills{
     height: 740px;
     width: 1445px;
     text-align: center;
     margin-top: 60.93px;
-
 }
 .skills h2{
     font-size: 34px;
-
 }
-
 .skills p{
     padding-top: 10.1px;
     padding-bottom: 60.47px;
@@ -161,72 +122,57 @@ text-align: center;
 .skills ul{
     display: flex;
     margin-left: 10px;
-
-
 }
 .skills li{
     padding-right: 208px;
 }
-
 .icons {
     width: 70.07px;
     height: 70.41px;
     padding-right: 190px;
     margin-left: 5px;
 }
-
 .tech li{
     padding-right: 131px;
     margin-left: 110px;
-
 }
-
 .icons2 {
     width: 77.07px;
     height: 70.41px;
     padding-right: 80px;
     margin-left: 130px;
 }
-
 .techskills {
     margin-top: 30px;
     display: flex;
     margin-left: 10px;
 }
-
-
 .stars {
     width: 166.46px;
     padding-right: 100px;
     margin-left: 0px;
 }
-
 .stars2 {
     width: 166.46px;
     padding-right: 40px;
     margin-left: 84px;
 }
-
 .star{
     padding-right: 45px;
     padding-left: 0px;
     margin-left: 0%;
     margin-bottom: 30px;
 }
-
 .portfolio{
     background: #F6F6F6;
     width: 1445px;
     text-align: center;
 }
-
 .portfolio h2{
     padding-top: 112.93px;
     padding-bottom: 47px;
     font-size: 34px;
-
 }
-
 .portfolio img{
     width: 936.24px;
     height: 510px;
@@ -238,7 +184,6 @@ text-align: center;
     padding-bottom: 99.09px;
     padding-top: 44.88px;
 }
-
 .portfolio a{
     font-size: 18px;
     color: black;
@@ -251,7 +196,6 @@ text-align: center;
     Height: 510px;
     padding-bottom: 45.9px;
 }
-
 .contacts{
     text-align: center;
     Width: 1445px;
@@ -261,61 +205,48 @@ text-align: center;
 .contacts h2{
     font-size: 34px;
 }
-
 .contacts p{
     padding-bottom: 59.6px;  
-
 }
-
 .button{
-width: 0px;
-height: 20px;
-background-color: rgb(10, 10, 10);
-/* border-radius: 20% / 70%; */
-text-decoration: none;
-text-transform: uppercase;
-letter-spacing: 6px;
-color:white;
-outline: 2px solid black;
-
-padding: 25px 35px;
-position: relative;
-overflow: hidden;
-transition: color 1.5s;
-
+    width: 0px;
+    height: 20px;
+    background-color: rgb(10, 10, 10);
+    /* border-radius: 20% / 70%; */
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color:white;
+    outline: 2px solid black;
+    padding: 25px 35px;
+    position: relative;
+    overflow: hidden;
+    transition: color 1.5s;
 }
 .button:hover{
     color: black;
     background-color: white;
 }
-  
-
 .button::before{
     background-color: white;
     content: '';
     position: absolute;
     top: 0;
-
-
     transform: skewX(3deg);
     z-index: -30;
     transition: 1s;
 }
-
-
 .iconsss {
     margin-top: 85.78px;
     width: 40.17px;
     height: 40.06px;
     padding-right: 60px;
     padding-bottom: 45.98px;    
-
 }
 .cont{
     padding-left: 38%;
     display: flex;
 }
-
 .end {
   color:  #828282;
   margin-bottom: 123.19px;
