@@ -16,6 +16,7 @@
     margin-left: 251px;
 }
 .Home nav{
+    justify-content: space-between;
     margin-top: 15px;
     width: 940.6px;
     position: fixed ;
