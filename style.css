@@ -37,7 +37,6 @@
 .photo {
     display: flex;
     margin-left: 251px;
-    margin-right: 100px;
     background: #FFFFFF;  
 }
 .line{
@@ -76,9 +75,9 @@
     transform: scale(1.1);
 }
 .vertical {
+    text-align: right;
     display: flex;
-    margin: auto; 
-    margin-left: 28%;   
+    margin-right: 0px;  
     writing-mode: vertical-rl;
     transform: rotate(-180deg);
     padding-right: 69px;
