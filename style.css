@@ -14,6 +14,12 @@
     font-size: 18px;
     margin-left: 251px;
 }
+.main-head{
+    text-align: center;
+    font-family: 'Gilroy-Bold';
+    justify-items: center;
+    background-color: #FFFFFF;
+}
 .Home nav{
     justify-content: space-between;
     margin-top: 15px;
