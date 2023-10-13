@@ -76,7 +76,7 @@
 .my_photo:hover{
     transform: scale(1.1);
 }
-.vertical 
+.vertical {
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
