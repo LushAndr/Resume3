@@ -35,6 +35,7 @@
     padding-right: 0px;
 }
 .photo {
+    justify-content: space-between;
     display: flex;
     margin-left: 251px;
     background: #FFFFFF;  
