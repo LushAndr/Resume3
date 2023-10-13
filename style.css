@@ -4,7 +4,6 @@
     margin-left: 0px;
     justify-items: center;
     background-color: #FFFFFF;
-    width: 940.6px;   
 }
 .Home {
     display: flex;
@@ -77,6 +76,7 @@
     transform: scale(1.1);
 }
 .vertical {
+    color: #828282;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
