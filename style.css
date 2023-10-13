@@ -1,6 +1,7 @@
 
 .body{
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Gilroy-Bold';
     justify-items: center;
     background-color: #FFFFFF;
