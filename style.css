@@ -74,8 +74,9 @@
 .my_photo:hover{
     transform: scale(1.1);
 }
-.vertical {
-    text-align: right;
+.vertical 
+    margin-top: auto;
+    margin-bottom: auto;
     display: flex;
     margin-right: 0px;  
     writing-mode: vertical-rl;
